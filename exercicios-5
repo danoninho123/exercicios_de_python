@@ -1,0 +1,70 @@
+"""
+Exercícios
+
+1) Aumente o tamanho do envelope
+
+turtle.color('red')
+
+for _ in [1, 2, 3]:
+    turtle.forward(150)
+    turtle.right(120)
+
+for _ in [1, 2, 3, 4]:
+  turtle.forward(150)
+  turtle.right(90)
+
+2) Use formas diferentes da tartaruga enquanto faz a aba e enquanto faz o corpo
+
+turtle.color('red')
+
+for _ in [1, 2, 3]:
+    turtle.shape('arrow')
+    turtle.forward(100)
+    turtle.right(120)
+
+for _ in [1, 2, 3, 4]:
+  turtle.shape('circle')  
+  turtle.forward(100)
+  turtle.right(90)
+
+3) Deixe o envelope colorido
+
+rainbow = ('red','purple',pink','green')
+color = random.choice(rainbow)
+turtle.color('red')
+
+for _ in [1, 2, 3]:
+    color = random.choice(rainbow)
+    turtle.forward(100)
+    turtle.right(120)
+
+for _ in [1, 2, 3, 4]:
+    color = random.choice(rainbow)
+    turtle.forward(100)
+    turtle.right(90)
+
+4) Reduza o aba do envelope
+
+turtle.color('red')
+
+for _ in [1, 2, 3]:
+    turtle.forward(90)
+    turtle.right(120)
+
+for _ in [1, 2, 3, 4]:
+  turtle.forward(100)
+  turtle.right(90)
+"""
+
+import turtle
+
+turtle = turtle.Turtle()
+turtle.color('red')
+
+for _ in [1, 2, 3]:
+    turtle.forward(100)
+    turtle.right(120)
+
+for _ in [1, 2, 3, 4]:
+  turtle.forward(100)
+  turtle.right(90)
