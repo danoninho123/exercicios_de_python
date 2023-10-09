@@ -1,0 +1,59 @@
+
+#Exercícios
+
+#1) Acrescente ao menos mais duas cores à lista de cores possíveis
+#Veja os nomes de cores válidos em: https://pt.wikipedia.org/wiki/Lista_de_cores
+#(coluna Nome Web)
+
+
+import turtle
+import random
+
+turtle = turtle.Turtle()
+colors = ['red', 'purple', 'blue','black','pink','yellow','green']
+
+for _ in [1, 2, 3, 4, 5, 6]:
+    color = random.choice(colors)
+    turtle.color(color)
+    turtle.forward(100)
+    turtle.right(120)
+
+#2) Faça o triângulo apontar para cima
+ 
+colors = ['red', 'purple', 'blue','black','pink','yellow',]
+for _ in [1, 2, 3, 4, 5, 6]:
+    color = random.choice(colors)
+    turtle.color(color)
+    turtle.forward(100)
+    turtle.right(240)
+
+#3) Remova a cor vermelha da lista de cores possíveis
+
+import turtle
+import random
+
+turtle = turtle.Turtle()
+colors = ['purple', 'blue','black','pink','yellow',]
+
+for _ in [1, 2, 3,]:
+    color = random.choice(colors)
+    turtle.color(color)
+    turtle.forward(100)
+    turtle.right(120) 
+
+
+#4) Mude a largura da linha
+
+import turtle
+import random
+
+turtle.pensize(10)
+turtle = turtle.Turtle()
+colors = ['red', 'purple', 'blue','black','pink','yellow',]
+
+for _ in [1, 2, 3]:
+    color = random.choice(colors)
+    turtle.color(color)
+    turtle.forward(100)
+    turtle.right(120)
+

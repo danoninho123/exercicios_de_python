@@ -1,0 +1,35 @@
+
+#Exercícios
+
+#1) Mude a cor da linha
+import turtle
+turtle.color('blue')
+turtle.forward(100)
+turtle.left(90)
+turtle.forward(100)
+turtle.left(90)
+turtle.forward(100)
+turtle.left(90)
+turtle.forward(100)
+
+
+#2) Mude o formato da tartaruga
+
+turtle.shape('arrow')
+turtle.color('blue')
+turtle.forward(100)
+turtle.left(90)
+turtle.forward(100)
+turtle.left(90)
+turtle.forward(100)
+turtle.left(90)
+turtle.forward(100)
+
+
+#3) Mude o tamanho do quadrado
+   
+for x in range(4):
+    turtle.foward(200)
+    turtle.left(90)
+   
+

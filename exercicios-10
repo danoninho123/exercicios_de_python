@@ -1,5 +1,5 @@
 
-'''#Exercícios
+#Exercícios
 
 #1) Faça cada quadrado ter uma cor
 
@@ -53,7 +53,7 @@ for _ in range(4):
    turtle.right(90)
    turtle.forward(100)
 
-'''
+
 #3) Faça os quadrados não se tocarem
 
 import turtle
